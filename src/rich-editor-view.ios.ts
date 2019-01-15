@@ -1,5 +1,5 @@
-import { Common } from './rich-editor-view.common';
+import { RichEditorViewBase } from './rich-editor-view.common';
 
-export class RichEditorView extends Common {
+export class RichEditorView extends RichEditorViewBase {
 
 }

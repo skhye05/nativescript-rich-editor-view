@@ -1,6 +1,7 @@
 <Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="pageLoaded" class="page"
   xmlns:ui="nativescript-rich-editor-view">
   <StackLayout class="p-20">
-    <Label text="{{ message }}" class="t-20 text-center c-black" textWrap="true"/>
+    <ui:RichEditorView hint="Insert text here..." class="rich-editor" height="200" />
+    <!-- <ui:RichEditorView hint="Insert text here..." class="t-20 rich-editor" backgroundColor="#eee" height="200" /> -->
   </StackLayout>
 </Page>

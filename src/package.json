@@ -31,11 +31,14 @@
         "NativeScript",
         "JavaScript",
         "Android",
-        "iOS"
+        "iOS",
+        "Rich Editor Text",
+        "Html Editing View",
+        "wysiwyg editor"
     ],
     "author": {
-        "name": "Your Name",
-        "email": "youremail@yourdomain.com"
+        "name": "Jonathan Mayunga",
+        "email": "mayunga.j@gmail.com"
     },
     "bugs": {
         "url": "https://github.com/skhye05/nativescript-rich-editor-view/issues"

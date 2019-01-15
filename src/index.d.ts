@@ -1,6 +1,7 @@
-import { Common } from './rich-editor-view.common';
-export declare class RichEditorView extends Common {
-  // define your typings manually
-  // or..
-  // take the ios or android .d.ts files and copy/paste them here
+import { RichEditorViewBase } from './rich-editor-view.common';
+export declare class RichEditorView extends RichEditorViewBase {
+    nativeView: any;
+    createNativeView(): Object;
+    initNativeView(): void;
+    disposeNativeView(): void;
 }
